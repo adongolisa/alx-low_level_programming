@@ -2,9 +2,9 @@
 
 /**
  * factorial - returns the factorial of a number
- * @n: number to return the factorial from
+ * @z: number to return the factorial from
  *
- * Return: factorial of n
+ * Return: factorial of z
  */
 int factorial(int z)
 {
