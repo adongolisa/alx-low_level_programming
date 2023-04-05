@@ -12,7 +12,7 @@ int _sqrt_recursion(int x)
 {
 	if (x < 0)
 		return (-1);
-	return (actual_sqrt_recursion(x, 0));
+	return (actual_sqrt_recursion(x , 0));
 }
 
 /**
@@ -29,6 +29,6 @@ int actual_sqrt_recursion(int x, int i)
 		return (-1);
 	if (i * i == x)
 		return (i);
-	return (actual_sqrt_recursion(x,i + 1));
+	return (actual_sqrt_recursion(x, i + 1));
 }
 
