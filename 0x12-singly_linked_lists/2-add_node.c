@@ -23,7 +23,7 @@ return (NULL);
 
 new->str = strdup(str);
 new->len = len;
-ew->next = (*head);
+new->next = (*head);
 (*head) = new;
 
 return (*head);
